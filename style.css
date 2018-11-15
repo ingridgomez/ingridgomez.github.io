@@ -104,6 +104,7 @@
   background-image: url(12.jpg);
   }
 
+  
 
 
 @media (max-width: 411px) {
@@ -116,7 +117,7 @@
 
   .img1 {
     left: 0vw;
-    top: 69vh;
+    top: 66vh;
     width: 411px;
     height: 500px;
   }
