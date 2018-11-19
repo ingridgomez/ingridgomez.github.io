@@ -1,9 +1,10 @@
+
 .img1 {
     position: absolute;
-    top: 0vh;
-    left: 1.75vw;
-    width: 30%;
-    height: 54%;
+    top: 0vw;
+    left: 4.75vw;
+    width: 30vw;
+    height: 30vw;
     display: block;
     background-image: url(1.jpg);
     background-size: cover;
@@ -18,10 +19,10 @@
 
 .img2 {
     position: absolute;
-    top: 0vh;
-    left: 32.5vw;
-    width: 35%;
-    height: 54%;
+    top: 0vw;
+    left: 35vw;
+    width: 30vw;
+    height: 30vw;
     display: block;
     background-image: url(2.jpg);
     background-size: cover;
@@ -36,10 +37,10 @@
 
 .img3 {
     position: absolute;
-    top: 0vh;
-    right: 1.75vw;
-    width: 30%;
-    height: 54%;
+    top: 0vw;
+    left: 65.30vw;
+    width: 30vw;
+    height: 30vw;
     background-image: url(3.jpg);
     background-size: cover;
     background-position: center;
@@ -53,11 +54,10 @@
 
 .img4 {
     position: absolute;
-    top: 55vh;
-    bottom: 1vh;
-    left: 1.75vw;
-    width: 30%;
-    height: 54%;
+    top: 30.25vw;
+    left: 4.75vw;
+    width: 30vw;
+    height: 30vw;
     background-image: url(4.jpg);
     background-size: cover;
     background-position: center;
@@ -71,11 +71,10 @@
 
 .img5 {
     position: absolute;
-    top: 55vh;
-    bottom: 1vh;
-    left: 32.5vw;
-    width: 35%;
-    height: 54%;
+    top: 30.25vw;
+    left: 35vw;
+    width: 30vw;
+    height: 30vw;
     background-image: url(5.jpg);
     background-size: cover;
     background-position: center;
@@ -89,11 +88,10 @@
 
 .img6 {
     position: absolute;
-    top: 55vh;
-    bottom: 1vh;
-    right: 1.75vw;
-    width: 30%;
-    height: 54%;
+    top: 30.25vw;
+    left: 65.30vw;
+    width: 30vw;
+    height: 30vw;
     background-image: url(6.jpg);
     background-size: cover;
     background-position: center;
@@ -107,42 +105,42 @@
   
 
 
-@media (max-width: 711px) {
+@media (max-width: 411px){
   .img2 {
     left: 0vw;
-    top: 0vh;
+    top: 0vw;
     width: 411px;
     height: 500px;
   }
 
   .img1 {
     left: 0vw;
-    top: 66vh;
+    top: 123vw;
     width: 411px;
     height: 500px;
   }
 
   .img3 {
       left: 0vw;
-    top: 138vh;
+    top: 246vw;
     width: 411px;
     height: 500px;
   }
   .img5 {
     left: 0vw;
-    top: 207vh;
+    top: 369vw;
     width: 411px;
     height: 500px;
   }
   .img4 {
       left: 0vw;
-    top: 276vh;
+    top: 492vw;
     width: 411px;
     height: 500px;
   }
   .img6 {
     left: 0vw;
-    top: 345vh;
+    top: 615vw;
     width: 411px;
     height: 500px;
   }
