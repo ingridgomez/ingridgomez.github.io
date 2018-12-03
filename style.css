@@ -1,149 +1,172 @@
+.grey {
+	position: absolute;
+	top: 0vw;
+	left: 0vw;
+	width: 100%;
+	height: 219%;
+	background-color: aliceblue;
+	background-size: fill;
+}
 
-.img1 {
-    position: absolute;
-    top: 0vw;
-    left: 4.75vw;
-    width: 30vw;
+.title{
+	color: tomato;
+	width: 100vw;
+	position: absolute;
+	left: -1vw;
+	top: 0vw;
+	font-family: Courier;
+	font-weight: 700;
+	font-size: 103px;
+	line-height: 31px;
+	text-align: center;
+}
+
+.puppers{
+	color: blue;
+	width: 50vw;
+	position: absolute;
+	left: 11vw;
+	top: 14vw;
+	font-family: Courier;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 31px;
+	text-align: center;
+}
+
+.doggos{
+	color: blue;
+	width: 50vw;
+	position: absolute;
+	left: 23vw;
+	top: 14vw;
+	font-family: Courier;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 31px;
+	text-align: center;
+}
+
+.woofers{
+	color: blue;
+	width: 50vw;
+	position: absolute;
+	left: 37vw;
+	top: 14vw;
+	font-family: Courier;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 31px;
+	text-align: center;
+}
+
+.Meme1{
+	position: absolute;
+    top: 22vw;
+    left: 3vw;
+    width: 23vw;
+    height: 29vw;
+    display: block;
+    background: url(1.jpg);
+    background-position: center;
+    object-fit: contain;
+}
+
+.Meme2{
+position: absolute;
+top: 22vw;
+left: 29vw;
+  width: 34vw;
+    height: 40vw;
+    display: block;
+    background: url(2.jpg);
+    background-position: center;
+    object-fit: contain;
+}
+
+.Meme3{
+position: absolute;
+top: 22vw;
+left: 65vw;
+  width: 32vw;
+    height: 31vw;
+    display: block;
+    background: url(3.jpg);
+    background-position: center;
+    object-fit: contain;
+}
+
+.Meme4{
+position: absolute;
+top: 54vw;
+left: 3vw;
+  width: 23vw;
+    height: 29vw;
+    display: block;
+    background: url(4.jpg);
+    background-position: center;
+    object-fit: contain;
+
+}
+
+.Meme5{
+position: absolute;
+top: 66vw;
+left: 32vw;
+  width: 27vw;
+    height: 31vw;
+    display: block;
+    background: url(5.jpg);
+    background-position: center;
+    object-fit: contain;
+
+}
+
+.Meme6{
+position: absolute;
+top: 56vw;
+left: 69vw;
+  width: 24vw;
     height: 30vw;
     display: block;
-    background-image: url(1.jpg);
-    background-size: cover;
+    background: url(6.jpg);
     background-position: center;
-    resize:none;
+    object-fit: contain;
+
 }
 
-.img1:hover {
-  background-image: url("7.jpg");
-  resize:none;
-}
-
-.img2 {
-    position: absolute;
-    top: 0vw;
-    left: 35vw;
-    width: 30vw;
-    height: 30vw;
-    display: block;
-    background-image: url(2.jpg);
-    background-size: cover;
-    background-position: center;
-    resize:none;
-}
-
-.img2:hover {
-  background-image: url("8.jpg");
-  resize:none;
-}
-
-.img3 {
-    position: absolute;
-    top: 0vw;
-    left: 65.30vw;
-    width: 30vw;
-    height: 30vw;
-    background-image: url(3.jpg);
-    background-size: cover;
-    background-position: center;
-    resize:none;
-}
-
-.img3:hover {
-  background-image: url(9.jpg);
-  resize:none;
-}
-
-.img4 {
-    position: absolute;
-    top: 30.25vw;
-    left: 4.75vw;
-    width: 30vw;
-    height: 30vw;
-    background-image: url(4.jpg);
-    background-size: cover;
-    background-position: center;
-    resize:none;
-}
-
-.img4:hover {
-  background-image: url(10.jpg);
-  resize:none;
-  }
-
-.img5 {
-    position: absolute;
-    top: 30.25vw;
-    left: 35vw;
-    width: 30vw;
-    height: 30vw;
-    background-image: url(5.jpg);
-    background-size: cover;
-    background-position: center;
-    resize:none;
-}
-
-.img5:hover {
-  background-image: url(11.jpg);
-  resize: none;
-  }
-
-.img6 {
-    position: absolute;
-    top: 30.25vw;
-    left: 65.30vw;
-    width: 30vw;
-    height: 30vw;
-    background-image: url(6.jpg);
-    background-size: cover;
-    background-position: center;
-    resize:none;
-}
-
-.img6:hover {
-  background-image: url(12.jpg);
-  }
-
-  
 
 
-@media (max-width: 411px){
-  .img2 {
-    left: 0vw;
-    top: 0vw;
-    width: 411px;
-    height: 500px;
-  }
 
-  .img1 {
-    left: 0vw;
-    top: 123vw;
-    width: 411px;
-    height: 500px;
-  }
 
-  .img3 {
-    left: 0vw;
-    top: 246vw;
-    width: 411px;
-    height: 500px;
-  }
-  .img5 {
-    left: 0vw;
-    top: 369vw;
-    width: 411px;
-    height: 500px;
-  }
-  .img4 {
-      left: 0vw;
-    top: 492vw;
-    width: 411px;
-    height: 500px;
-  }
-  .img6 {
-    left: 0vw;
-    top: 615vw;
-    width: 411px;
-    height: 500px;
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
