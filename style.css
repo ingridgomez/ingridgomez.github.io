@@ -1,173 +1,1643 @@
-.grey {
+	
+.background {  
 	position: absolute;
 	top: 0vw;
 	left: 0vw;
 	width: 100%;
-	height: 219%;
-	background-color: aliceblue;
+	height: 110%;
+	background-size: fill;
+}
+.puppersbackground {  
+	position: absolute;
+	top: 0vw;
+	left: 0vw;
+	width: 100%;
+	height: 370%;
 	background-size: fill;
 }
 
-.title{
-	color: tomato;
-	width: 100vw;
+
+.woofersbackground {  
 	position: absolute;
-	left: -1vw;
 	top: 0vw;
-	font-family: Courier;
+	left: 0vw;
+	width: 100%;
+	height: 276%;
+	background-size: fill;
+}
+
+.title8 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: -7vw;
+	font-family: Futura;
 	font-weight: 700;
-	font-size: 103px;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.woofertitle8 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: -7vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .1;
+}
+
+.title {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 1vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+
+.woofertitle {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 1vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle2 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 9vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
 	line-height: 31px;
 	text-align: center;
 }
 
-.puppers{
-	color: blue;
-	width: 50vw;
+.title2 {
+	color: cornflowerblue;
 	position: absolute;
-	left: 11vw;
-	top: 14vw;
-	font-family: Courier;
+	left: 0.5vw;
+	top: 9vw;
+	font-family: Futura;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+}
+.title3 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 17vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle3 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 17vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title4 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 25vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle4 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 25vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title5 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 33vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle5 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 33vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title6 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 41vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle6 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 41vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title7 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 49vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle7 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 49vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.puppertitle {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 49vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.puppertitle3 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 49vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.puppertitle4 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 49vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.puppertitle5 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 49vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.puppertitle6 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 49vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.puppertitle7 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 49vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.puppertitle8 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 49vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.title9 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 54vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title10 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 62vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title11 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 70vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title12 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 78vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title13 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 86vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title14 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 94vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title15 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 102vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title16 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 110vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title17 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 118vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title18 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 126vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.title19 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 134vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.title20 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 142vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title21 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 150vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title22 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 158vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title23 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 166vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title24 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 174vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title25 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 182vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.title26 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 190vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.woofertitle9 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 54vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle10 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 62vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle11 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 70vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle12 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 78vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle13 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 86vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle14 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 94vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle15 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 102vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle16 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 110vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle17 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 118vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle18 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 126vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.woofertitle19 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 134vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+.woofertitle20 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 142vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle21 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 150vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle22 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 158vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle23 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 166vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle24 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 174vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+.woofertitle25 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 182vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
+
+.pupsillhouette {
+	position: absolute;
+	top: 25vw;
+	left: 9vw;
+	height: 30%;
+	width: 20%;
+	opacity: 1;
+	display: block;
+    background: url(puppersillhouette.png);
+    background-position: center;
+    object-fit: contain;
+    transition: all 500ms ease-in-out;
+
+}
+
+
+.pupsillhouette:hover {
+	opacity: 0;
+}
+
+.puplabel{
+	position: absolute;
+	top:275px;
+	left: 67px;
+	color: black; 
+	opacity: 0;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 40px;
 	line-height: 31px;
 	text-align: center;
 }
 
-.doggos{
-	color: blue;
-	width: 50vw;
+.show{
+	opacity: 1;
+
+}
+
+.pupphoto {
 	position: absolute;
-	left: 23vw;
-	top: 14vw;
-	font-family: Courier;
+	top: 25vw;
+	left: 9vw;
+	height: 30%;
+	width: 20%;
+	display: block;
+    background: url(pupperimg.png);
+    background-position: center;
+    object-fit: contain;
+}
+
+
+
+.doggophoto {
+	position: absolute;
+	top: 25vw;
+	left: 39vw;
+	height: 31%;
+	width: 20.5%;
+	display: block;
+    background: url(doggoimg.png);
+    background-position: center;
+    object-fit: contain;
+
+}
+.doggosillhouette {
+	position: absolute;
+	top: 25vw;
+	left: 39vw;
+	height: 31%;
+	width: 20.5%;
+	opacity: 1;
+	display: block;
+    background: url(doggosillhouette.png);
+    background-position: center;
+    object-fit: contain;
+    transition: all 500ms ease-in-out;
+
+}
+
+
+.doggosillhouette:hover {
+	opacity: 0;
+}
+
+.doggolabel{
+	position: absolute;
+	top:283px;
+	left: 73px;
+	color: black; 
+	opacity: 0;
+	font-family: Futura;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 40px;
 	line-height: 31px;
 	text-align: center;
+
 }
 
-.woofers{
-	color: blue;
-	width: 50vw;
+.show{
+	opacity: 1;
+
+}
+
+
+.woofersillhouette {
 	position: absolute;
-	left: 37vw;
-	top: 14vw;
-	font-family: Courier;
+	top: 28vw;
+	left: 71vw;
+	height: 25%;
+	width: 20.5%;
+	opacity: 1;
+	display: block;
+    background: url(woofersillhouette.png);
+    background-position: center;
+    object-fit: contain;
+    transition: all 500ms ease-in-out;
+
+}
+
+.woofersillhouette:hover {
+	opacity: 0;
+}
+
+.wooferlabel{
+	position: absolute;
+	top:245px;
+	left: 73px;
+	color: black; 
+	opacity: 0;
+	font-family: Futura;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 40px;
 	line-height: 31px;
 	text-align: center;
+
 }
 
-.Meme1{
+.show{
+	opacity: 1;
+
+}
+
+.wooferphoto {
 	position: absolute;
-    top: 22vw;
-    left: 3vw;
-    width: 23vw;
-    height: 29vw;
-    display: block;
-    background: url(1.jpg);
-    background-position: center;
-    object-fit: contain;
-}
-
-.Meme2{
-position: absolute;
-top: 22vw;
-left: 29vw;
-  width: 34vw;
-    height: 40vw;
-    display: block;
-    background: url(2.jpg);
-    background-position: center;
-    object-fit: contain;
-}
-
-.Meme3{
-position: absolute;
-top: 22vw;
-left: 65vw;
-  width: 32vw;
-    height: 31vw;
-    display: block;
-    background: url(3.jpg);
-    background-position: center;
-    object-fit: contain;
-}
-
-.Meme4{
-position: absolute;
-top: 54vw;
-left: 3vw;
-  width: 23vw;
-    height: 29vw;
-    display: block;
-    background: url(4.jpg);
-    background-position: center;
-    object-fit: contain;
-
-}
-
-.Meme5{
-position: absolute;
-top: 66vw;
-left: 32vw;
-  width: 27vw;
-    height: 31vw;
-    display: block;
-    background: url(5.jpg);
-    background-position: center;
-    object-fit: contain;
-
-}
-
-.Meme6{
-position: absolute;
-top: 56vw;
-left: 69vw;
-  width: 24vw;
-    height: 30vw;
-    display: block;
-    background: url(6.jpg);
+	top: 28vw;
+	left: 71vw;
+	height: 25%;
+	width: 20.5%;
+	display: block;
+    background: url(wooferimg.png);
     background-position: center;
     object-fit: contain;
 
 }
 
 
+.puppermemes {
+	position: absolute;
+	top: 26vw;
+	left: 22vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(puppersmemes.jpg);
+	background-position: center;
+	object-fit: contain;
+	transition: all 500ms ease-in-out;
+}
 
 
+.puppermemes:hover {
+	opacity: 0.2;
+}
+
+.doggomemes {
+	position: absolute;
+	top: 26vw;
+	left: 22vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(doggosmemes.jpg);
+	background-position: center;
+	object-fit: contain;
+	transition: all 500ms ease-in-out;
+}
 
 
+.doggomemes:hover {
+	opacity: 0.2;
+}
+
+.woofermemes {
+	position: absolute;
+	top: 26vw;
+	left: 22vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(woofersmemes.jpg);
+	background-position: center;
+	object-fit: contain;
+	transition: all 500ms ease-in-out;
+}
 
 
+.woofermemes:hover {
+	opacity: 0.2;
+}
 
 
+.memeslabel{
+	position: absolute;
+	top:33.5vw;
+	left:24.7vw;
+	background: url(memestitle.png);
+	background-position: center;
+	object-fit: contain;
+	display: block;
+}
 
 
+.puppervideos {
+	position: absolute;
+	top: 26vw;
+	left: 57vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(puppersvideos.jpg);
+	background-position: center;
+	object-fit: contain;
+	transition: all 500ms ease-in-out;
+}
+.puppervideos:hover {
+	opacity: 0.2;
+}
+
+.doggovideos {
+	position: absolute;
+	top: 26vw;
+	left: 57vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(doggovideos.jpg);
+	background-position: center;
+	object-fit: contain;
+	transition: all 500ms ease-in-out;
+}
+.doggovideos:hover {
+	opacity: 0.2;
+}
+
+.woofervideos {
+	position: absolute;
+	top: 26vw;
+	left: 57vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(woofersvideos.jpg);
+	background-position: center;
+	object-fit: contain;
+	transition: all 500ms ease-in-out;
+}
+.woofervideos:hover {
+	opacity: 0.2;
+}
+.videoslabel{
+	position: absolute;
+	top:33.5vw;
+	left:60vw;
+	background: url(videostitle.png);
+	background-position: center;
+	object-fit: contain;
+	display: block;
+}
+
+.show {
+opacity: 1;
+}
+
+.Memes5 {
+	position: absolute;
+	top: 25vw;
+	left: 16vw;
+	width: 26vw;
+	height: 30vw;
+	display: block;
+	background:url(5.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme19 {
+	position: absolute;
+	top: 25vw;
+	left: 56vw;
+	width: 25vw;
+	height: 27vw;
+	display: block;
+	background:url(19.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Memes10 {
+	position: absolute;
+	top: 58vw;
+	left: 16vw;
+	width: 26vw;
+	height: 30vw;
+	display: block;
+	background:url(10.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Memes12 {
+	position: absolute;
+	top: 58vw;
+	left: 56vw;
+	width: 25vw;
+	height: 31vw;
+	display: block;
+	background:url(12.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Memes13 {
+	position: absolute;
+	top: 91vw;
+	left: 16vw;
+	width: 26vw;
+	height: 31vw;
+	display: block;
+	background:url(13.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme24 {
+	position: absolute;
+	top: 91vw;
+	left: 56vw;
+	width: 24vw;
+	height: 31vw;
+	display: block;
+	background:url(24.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme25 {
+	position: absolute;
+	top: 125vw;
+	left: 16vw;
+	width: 26vw;
+	height: 30vw;
+	display: block;
+	background:url(25.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme26 {
+	position: absolute;
+	top: 125vw;
+	left: 56vw;
+	width: 24vw;
+	height: 30vw;
+	display: block;
+	background:url(26.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme27 {
+	position: absolute;
+	top: 159vw;
+	left: 16vw;
+	width: 26vw;
+	height: 31vw;
+	display: block;
+	background:url(27.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme28 {
+	position: absolute;
+	top: 159vw;
+	left: 56vw;
+	width: 25vw;
+	height: 30vw;
+	display: block;
+	background:url(28.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+a {
+	text-decoration: none;
+}
+
+.puppervidbackground {
+	position: absolute;
+	top: 0vw;
+	left: 0vw;
+	width: 100%;
+	height: 199%;
+	background-size: fill;
+}
 
 
+.puppervideo1 {
+	position: absolute;
+	top: 23vw;
+	left: 14vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(pupper1.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.puppervideo2 {
+	position: absolute;
+	top: 23vw;
+	left: 55vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(pupper2.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.puppervideo3 {
+	position: absolute;
+	top: 52vw;
+	left: 14vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(pupper3.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.puppervideo4 {
+	position: absolute;
+	top: 52vw;
+	left: 55vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(pupper4.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.puppervideo5 {
+	position: absolute;
+	top: 81vw;
+	left: 14vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(pupper5.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.puppervideo6 {
+	position: absolute;
+	top: 81vw;
+	left: 55vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(pupper6.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.doggomemes {
+	position: absolute;
+	top: 26vw;
+	left: 22vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(doggosmemes.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.doggovideos {
+	position: absolute;
+	top: 26vw;
+	left: 57vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(doggosvideos.jpg);
+	background-position: center;
+	object-fit: contain;
+}
 
 
+.Meme16 {
+	position: absolute;
+	top: 25vw;
+	left: 16vw;
+	width: 26vw;
+	height: 30vw;
+	display: block;
+	background:url(16.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme20 {
+	position: absolute;
+	top: 25vw;
+	left: 56vw;
+	width: 25vw;
+	height: 30vw;
+	display: block;
+	background:url(20.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme21 {
+	position: absolute;
+	top: 58vw;
+	left: 16.5vw;
+	width: 25vw;
+	height: 30.5vw;
+	display: block;
+	background:url(21.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme29 {
+	position: absolute;
+	top: 58vw;
+	left: 56.5vw;
+	width: 24vw;
+	height: 30.5vw;
+	display: block;
+	background:url(29.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme35 {
+	position: absolute;
+	top: 91vw;
+	left: 16vw;
+	width: 24.7vw;
+	height: 30vw;
+	display: block;
+	background:url(35.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme30 {
+	position: absolute;
+	top: 91vw;
+	left: 56vw;
+	width: 27vw;
+	height: 30vw;
+	display: block;
+	background:url(30.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme31 {
+	position: absolute;
+	top: 125vw;
+	left: 16vw;
+	width: 24.5vw;
+	height: 30vw;
+	display: block;
+	background:url(31.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme32 {
+	position: absolute;
+	top: 125vw;
+	left: 57.5vw;
+	width: 24vw;
+	height: 30vw;
+	display: block;
+	background:url(32.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme33 {
+	position: absolute;
+	top: 159vw;
+	left: 16vw;
+	width: 24.5vw;
+	height: 30vw;
+	display: block;
+	background:url(33.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.Meme34 {
+	position: absolute;
+	top: 159vw;
+	left: 56.5vw;
+	width: 26.5vw;
+	height: 30vw;
+	display: block;
+	background:url(34.jpg);
+	background-position: center;
+	object-fit: contain;
+}
+
+.doggovideo1 {
+	position: absolute;
+	top: 23vw;
+	left: 14vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(doggo1.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.doggovideo2 {
+	position: absolute;
+	top: 23vw;
+	left: 55vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(doggo2.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.doggovideo3 {
+	position: absolute;
+	top: 52vw;
+	left: 14vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(doggo3.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.doggovideo4 {
+	position: absolute;
+	top: 52vw;
+	left: 55vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(doggo4.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.doggovideo5 {
+	position: absolute;
+	top: 81vw;
+	left: 14vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(doggo5.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.doggovideo6 {
+	position: absolute;
+	top: 81vw;
+	left: 55vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(doggo6.mp4);
+	background-position: center;
+	object-fit: contain;
+}
+
+.woofermemes {
+	position: absolute;
+	top: 26vw;
+	left: 22vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(woofersmemes.jpg);
+	background-position: center;
+	object-fit: contain;
+	transition: all 500ms ease-in-out;
+}
+
+.woofervideos {
+	position: absolute;
+	top: 26vw;
+	left: 57vw;
+	width: 18vw;
+	height: 20vw;
+	display: block;
+	background:url(woofersvideos.jpg);
+	background-position: center;
+	object-fit: contain;
+	transition: all 500ms ease-in-out;
+}
 
 
+.Meme36 {
+	position: absolute;
+	top: 25vw;
+	left: 20vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(36.jpg);
+	background-position: center;
+	object-fit: contain;
+}
 
+.Meme37 {
+	position: absolute;
+	top: 25vw;
+	left: 59vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(37.jpg);
+	background-position: center;
+	object-fit: contain;
+}
 
+.Meme38 {
+	position: absolute;
+	top: 55vw;
+	left: 20vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(38.jpg);
+	background-position: center;
+	object-fit: contain;
+}
 
+.Meme39 {
+	position: absolute;
+	top: 55vw;
+	left: 59vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(39.jpg);
+	background-position: center;
+	object-fit: contain;
+}
 
+.Meme40 {
+	position: absolute;
+	top: 85vw;
+	left: 20vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(40.jpg);
+	background-position: center;
+	object-fit: contain;
+}
 
+.Meme41 {
+	position: absolute;
+	top: 85vw;
+	left: 59vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(41.jpg);
+	background-position: center;
+	object-fit: contain;
+}
 
+.Meme42 {
+	position: absolute;
+	top: 115vw;
+	left: 20vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(42.jpg);
+	background-position: center;
+	object-fit: contain;
+}
 
+.Meme43 {
+	position: absolute;
+	top: 115vw;
+	left: 59vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(43.jpg);
+	background-position: center;
+	object-fit: contain;
+}
 
+.woofervideo1 {
+	position: absolute;
+	top: 23vw;
+	left: 14vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(woofer1.mp4);
+	background-position: center;
+	object-fit: contain;
+}
 
+.woofervideo2 {
+	position: absolute;
+	top: 23vw;
+	left: 55vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(woofer2.mp4);
+	background-position: center;
+	object-fit: contain;
+}
 
+.woofervideo3 {
+	position: absolute;
+	top: 52vw;
+	left: 14vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(woofer3.mp4);
+	background-position: center;
+	object-fit: contain;
+}
 
+.woofervideo4 {
+	position: absolute;
+	top: 52vw;
+	left: 55vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(woofer4.mp4);
+	background-position: center;
+	object-fit: contain;
+}
 
+.woofervideo5 {
+	position: absolute;
+	top: 81vw;
+	left: 14vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(woofer5.mp4);
+	background-position: center;
+	object-fit: contain;
+}
 
-
-
-
-
-
+.woofervideo6 {
+	position: absolute;
+	top: 81vw;
+	left: 55vw;
+	width: 20vw;
+	height: 25vw;
+	display: block;
+	background:url(woofer6.mp4);
+	background-position: center;
+	object-fit: contain;
+}
 
