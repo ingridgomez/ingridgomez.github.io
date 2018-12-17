@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	console.log("ready");
 	$(".pupsillhouette").hover(function(){
@@ -11,9 +12,4 @@ $(document).ready(function(){
 	$(".woofersillhouette").hover(function(){
 		$(".wooferlabel").toggleClass("show");
 	});
-
-	$(".puppersvideos").hover(function(){
-		$(".videoslabel").toggleClass("show");
-	});
-
 });

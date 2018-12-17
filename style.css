@@ -1,4 +1,7 @@
-	
+.div {
+	background-repeat: no-repeat;
+}	
+
 .background {  
 	position: absolute;
 	top: 0vw;
@@ -12,8 +15,27 @@
 	top: 0vw;
 	left: 0vw;
 	width: 100%;
-	height: 370%;
+	height: 100%;
 	background-size: fill;
+}
+.home {
+	position: absolute;
+	top: 1vw;
+	right:1vw;
+	display: block;
+	background-position: center;
+	object-fit: contain;
+	background-repeat: no-repeat;
+}
+
+.back {
+	position: absolute;
+	top: 1vw;
+	left:1vw;
+	display: block;
+	background-position: center;
+	object-fit: contain;
+	background-repeat: no-repeat;
 }
 
 
@@ -22,7 +44,7 @@
 	top: 0vw;
 	left: 0vw;
 	width: 100%;
-	height: 276%;
+	height: 100%;
 	background-size: fill;
 }
 
@@ -90,6 +112,19 @@
 	text-align: center;
 }
 
+.woofertitle222 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 9vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 168px;
+	line-height: 31px;
+	text-align: center;
+	opacity: .05;
+}
+
 .title2 {
 	color: cornflowerblue;
 	position: absolute;
@@ -101,6 +136,20 @@
 	line-height: 31px;
 	text-align: center;
 }
+
+.title222 {
+	color: cornflowerblue;
+	position: absolute;
+	left: 0.5vw;
+	top: 9vw;
+	font-family: Futura;
+	font-weight: 700;
+	font-size: 184px;
+	line-height: 31px;
+	text-align: center;
+	opacity: 0.05;
+}
+
 .title3 {
 	color: cornflowerblue;
 	position: absolute;
@@ -788,6 +837,7 @@
     background: url(pupperimg.png);
     background-position: center;
     object-fit: contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -802,6 +852,7 @@
     background: url(doggoimg.png);
     background-position: center;
     object-fit: contain;
+    background-repeat: no-repeat;
 
 }
 .doggosillhouette {
@@ -816,6 +867,7 @@
     background-position: center;
     object-fit: contain;
     transition: all 500ms ease-in-out;
+    background-repeat: no-repeat;
 
 }
 
@@ -856,6 +908,7 @@
     background-position: center;
     object-fit: contain;
     transition: all 500ms ease-in-out;
+    background-repeat: no-repeat;
 
 }
 
@@ -892,6 +945,7 @@
     background: url(wooferimg.png);
     background-position: center;
     object-fit: contain;
+    background-repeat: no-repeat;
 
 }
 
@@ -903,15 +957,16 @@
 	width: 18vw;
 	height: 20vw;
 	display: block;
-	background:url(puppersmemes.jpg);
 	background-position: center;
 	object-fit: contain;
-	transition: all 500ms ease-in-out;
+    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+	background-repeat: no-repeat;
 }
-
-
 .puppermemes:hover {
-	opacity: 0.2;
+margin-top: -1vw;
 }
 
 .doggomemes {
@@ -921,16 +976,19 @@
 	width: 18vw;
 	height: 20vw;
 	display: block;
-	background:url(doggosmemes.jpg);
 	background-position: center;
 	object-fit: contain;
-	transition: all 500ms ease-in-out;
+    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+	background-repeat: no-repeat;
 }
-
 
 .doggomemes:hover {
-	opacity: 0.2;
+margin-top: -1vw;
 }
+
 
 .woofermemes {
 	position: absolute;
@@ -939,26 +997,29 @@
 	width: 18vw;
 	height: 20vw;
 	display: block;
-	background:url(woofersmemes.jpg);
 	background-position: center;
 	object-fit: contain;
-	transition: all 500ms ease-in-out;
+    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+	background-repeat: no-repeat;
 }
 
-
-.woofermemes:hover {
-	opacity: 0.2;
-}
 
 
 .memeslabel{
 	position: absolute;
 	top:33.5vw;
 	left:24.7vw;
-	background: url(memestitle.png);
 	background-position: center;
 	object-fit: contain;
 	display: block;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
 
 
@@ -969,15 +1030,18 @@
 	width: 18vw;
 	height: 20vw;
 	display: block;
-	background:url(puppersvideos.jpg);
 	background-position: center;
 	object-fit: contain;
-	transition: all 500ms ease-in-out;
-}
-.puppervideos:hover {
-	opacity: 0.2;
+    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+    background-repeat: no-repeat;
 }
 
+.puppervideos:hover {
+margin-top: -1vw;
+}
 .doggovideos {
 	position: absolute;
 	top: 26vw;
@@ -985,15 +1049,18 @@
 	width: 18vw;
 	height: 20vw;
 	display: block;
-	background:url(doggovideos.jpg);
 	background-position: center;
 	object-fit: contain;
-	transition: all 500ms ease-in-out;
-}
-.doggovideos:hover {
-	opacity: 0.2;
+    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+    background-repeat: no-repeat;
 }
 
+.doggovideos:hover {
+margin-top: -1vw;
+}
 .woofervideos {
 	position: absolute;
 	top: 26vw;
@@ -1001,22 +1068,17 @@
 	width: 18vw;
 	height: 20vw;
 	display: block;
-	background:url(woofersvideos.jpg);
 	background-position: center;
 	object-fit: contain;
-	transition: all 500ms ease-in-out;
+    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+    background-repeat: no-repeat;
 }
+
 .woofervideos:hover {
-	opacity: 0.2;
-}
-.videoslabel{
-	position: absolute;
-	top:33.5vw;
-	left:60vw;
-	background: url(videostitle.png);
-	background-position: center;
-	object-fit: contain;
-	display: block;
+margin-top: -1vw;
 }
 
 .show {
@@ -1025,122 +1087,211 @@ opacity: 1;
 
 .Memes5 {
 	position: absolute;
-	top: 25vw;
-	left: 16vw;
-	width: 26vw;
-	height: 30vw;
-	display: block;
-	background:url(5.jpg);
+	top: -2.5vw;
+	left: 17vw;
+	width: 11vw;
+	height: 18vw;
+	background:url(test.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.Memes5:hover {
+margin-top: -1vw;
 }
 
 .Meme19 {
 	position: absolute;
-	top: 25vw;
-	left: 56vw;
-	width: 25vw;
-	height: 27vw;
+	top: -5vw;
+	left: 46vw;
+	width: 11vw;
+	height: 21vw;
 	display: block;
-	background:url(19.jpg);
+	background:url(19.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.Meme19:hover {
+margin-top: -1vw;
 }
 
 .Memes10 {
 	position: absolute;
-	top: 58vw;
-	left: 16vw;
-	width: 26vw;
-	height: 30vw;
+	top: 4vw;
+	left: 73vw;
+	width: 11vw;
+	height: 12vw;
 	display: block;
-	background:url(10.jpg);
+	background:url(10.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+.Memes10:hover {
+margin-top: -1vw;
+}
+
 
 .Memes12 {
 	position: absolute;
-	top: 58vw;
-	left: 56vw;
-	width: 25vw;
-	height: 31vw;
+	top: 17vw;
+	left: 4vw;
+	width: 11vw;
+	height: 18vw;
 	display: block;
-	background:url(12.jpg);
+	background:url(12.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+.Memes12:hover {
+margin-top: -1vw;
 }
 
 .Memes13 {
 	position: absolute;
-	top: 91vw;
-	left: 16vw;
-	width: 26vw;
-	height: 31vw;
+	top: 15vw;
+	left: 21vw;
+	width: 21vw;
+	height: 17vw;
 	display: block;
-	background:url(13.jpg);
+	background:url(13.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+.Memes13:hover {
+margin-top: -1vw;
+}
+
 
 .Meme24 {
 	position: absolute;
-	top: 91vw;
-	left: 56vw;
-	width: 24vw;
-	height: 31vw;
+	top: 22vw;
+	left: 59vw;
+	width: 11vw;
+	height: 17vw;
 	display: block;
-	background:url(24.jpg);
+	background:url(24.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.Meme24:hover {
+margin-top: -1vw;
 }
 
 .Meme25 {
 	position: absolute;
-	top: 125vw;
-	left: 16vw;
-	width: 26vw;
-	height: 30vw;
+	top: 18.5vw;
+	left: 86vw;
+	width: 11vw;
+	height: 18vw;
 	display: block;
-	background:url(25.jpg);
+	background:url(25.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+
+.Meme25:hover {
+margin-top: -1vw;
+}
+
 
 .Meme26 {
 	position: absolute;
-	top: 125vw;
-	left: 56vw;
-	width: 24vw;
-	height: 30vw;
+	top: 36.5vw;
+	left: 17vw;
+	width: 13vw;
+	height: 12vw;
 	display: block;
-	background:url(26.jpg);
+	background:url(26.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+
+.Meme26:hover {
+margin-top: -1vw;
+}
+
 
 .Meme27 {
 	position: absolute;
-	top: 159vw;
-	left: 16vw;
-	width: 26vw;
-	height: 31vw;
+	top: 37vw;
+	left: 45vw;
+	width: 15vw;
+	height: 13vw;
 	display: block;
-	background:url(27.jpg);
+	background:url(27.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+.Meme27:hover {
+margin-top: -1vw;
 }
 
 .Meme28 {
 	position: absolute;
-	top: 159vw;
-	left: 56vw;
-	width: 25vw;
-	height: 30vw;
+	top: 34.5vw;
+	left: 69.5vw;
+	width: 15vw;
+	height: 18vw;
 	display: block;
-	background:url(28.jpg);
+	background:url(28.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.Meme28:hover {
+margin-top: -1vw;
 }
 
 a {
@@ -1152,15 +1303,15 @@ a {
 	top: 0vw;
 	left: 0vw;
 	width: 100%;
-	height: 199%;
+	height: 100%;
 	background-size: fill;
 }
 
 
 .puppervideo1 {
 	position: absolute;
-	top: 23vw;
-	left: 14vw;
+	top: 10vw;
+	left: 6vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1171,8 +1322,8 @@ a {
 
 .puppervideo2 {
 	position: absolute;
-	top: 23vw;
-	left: 55vw;
+	top: 10vw;
+	left: 38vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1183,8 +1334,8 @@ a {
 
 .puppervideo3 {
 	position: absolute;
-	top: 52vw;
-	left: 14vw;
+	top: 10vw;
+	left: 71vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1195,8 +1346,8 @@ a {
 
 .puppervideo4 {
 	position: absolute;
-	top: 52vw;
-	left: 55vw;
+	top: 34vw;
+	left: 6vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1207,8 +1358,8 @@ a {
 
 .puppervideo5 {
 	position: absolute;
-	top: 81vw;
-	left: 14vw;
+	top: 34vw;
+	left: 38vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1219,8 +1370,8 @@ a {
 
 .puppervideo6 {
 	position: absolute;
-	top: 81vw;
-	left: 55vw;
+	top: 34vw;
+	left: 71vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1229,17 +1380,7 @@ a {
 	object-fit: contain;
 }
 
-.doggomemes {
-	position: absolute;
-	top: 26vw;
-	left: 22vw;
-	width: 18vw;
-	height: 20vw;
-	display: block;
-	background:url(doggosmemes.jpg);
-	background-position: center;
-	object-fit: contain;
-}
+
 
 .doggovideos {
 	position: absolute;
@@ -1248,136 +1389,228 @@ a {
 	width: 18vw;
 	height: 20vw;
 	display: block;
-	background:url(doggosvideos.jpg);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
 }
 
 
 .Meme16 {
 	position: absolute;
-	top: 25vw;
-	left: 16vw;
-	width: 26vw;
-	height: 30vw;
+	top: 0.5vw;
+	left: 17vw;
+	width: 11vw;
+	height: 18vw;
 	display: block;
-	background:url(16.jpg);
+	background:url(16.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+		    float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+
+.Meme16:hover {
+margin-top: -1vw;
+}
+
 
 .Meme20 {
 	position: absolute;
-	top: 25vw;
-	left: 56vw;
-	width: 25vw;
-	height: 30vw;
+	top: -1vw;
+	left: 46vw;
+	width: 11vw;
+	height: 21vw;
 	display: block;
-	background:url(20.jpg);
+	background:url(20.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+	float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+
+.Meme20:hover {
+margin-top: -1vw;
+}
+
 
 .Meme21 {
 	position: absolute;
-	top: 58vw;
-	left: 16.5vw;
-	width: 25vw;
-	height: 30.5vw;
+	top: 4vw;
+	left: 73vw;
+	width: 11vw;
+	height: 12vw;
 	display: block;
-	background:url(21.jpg);
+	background:url(21.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+		float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+
+.Meme21:hover {
+margin-top: -1vw;
+}
+
 
 .Meme29 {
 	position: absolute;
-	top: 58vw;
-	left: 56.5vw;
-	width: 24vw;
-	height: 30.5vw;
+	top: 17vw;
+	left: 4vw;
+	width: 11vw;
+	height: 18vw;
 	display: block;
-	background:url(29.jpg);
+	background:url(29.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+		float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.Meme29:hover {
+margin-top: -1vw;
 }
 
 .Meme35 {
 	position: absolute;
-	top: 91vw;
-	left: 16vw;
-	width: 24.7vw;
-	height: 30vw;
+	top: 20vw;
+	left: 25vw;
+	width: 21vw;
+	height: 17vw;
 	display: block;
-	background:url(35.jpg);
+	background:url(35.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+		float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.Meme35:hover {
+margin-top: -1vw;
 }
 
 .Meme30 {
 	position: absolute;
-	top: 91vw;
-	left: 56vw;
-	width: 27vw;
-	height: 30vw;
+	top: 18vw;
+	left: 61vw;
+	width: 11vw;
+	height: 17vw;
 	display: block;
-	background:url(30.jpg);
+	background:url(30.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+		float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.Meme30:hover {
+margin-top: -1vw;
 }
 
 .Meme31 {
 	position: absolute;
-	top: 125vw;
-	left: 16vw;
-	width: 24.5vw;
-	height: 30vw;
+	top: 17vw;
+	left: 86vw;
+	width: 11vw;
+	height: 18vw;
 	display: block;
-	background:url(31.jpg);
+	background:url(31.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+		float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.Meme31:hover {
+margin-top: -1vw;
 }
 
 .Meme32 {
 	position: absolute;
-	top: 125vw;
-	left: 57.5vw;
-	width: 24vw;
-	height: 30vw;
-	display: block;
-	background:url(32.jpg);
+	top: 36.5vw;
+	left: 16vw;
+	width: 13vw;
+	height: 12vw;	display: block;
+	background:url(32.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+		float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+.Meme32:hover {
+margin-top: -1vw;
+}
+
 
 .Meme33 {
 	position: absolute;
-	top: 159vw;
-	left: 16vw;
-	width: 24.5vw;
-	height: 30vw;
+	top: 37vw;
+	left: 45vw;
+	width: 15vw;
+	height: 13vw;
 	display: block;
-	background:url(33.jpg);
+	background:url(33.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+		float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.Meme33:hover {
+margin-top: -1vw;
 }
 
 .Meme34 {
 	position: absolute;
-	top: 159vw;
-	left: 56.5vw;
-	width: 26.5vw;
-	height: 30vw;
+	top: 35.5vw;
+	left: 71vw;
+	width: 15vw;
+	height: 18vw;
 	display: block;
-	background:url(34.jpg);
+	background:url(34.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+		float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+.Meme34:hover {
+margin-top: -1vw;
+}
+
 
 .doggovideo1 {
 	position: absolute;
-	top: 23vw;
-	left: 14vw;
+	top: 10vw;
+	left: 6vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1388,20 +1621,21 @@ a {
 
 .doggovideo2 {
 	position: absolute;
-	top: 23vw;
-	left: 55vw;
+	top: 10vw;
+	left: 38vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
 	background:url(doggo2.mp4);
 	background-position: center;
 	object-fit: contain;
+
 }
 
 .doggovideo3 {
 	position: absolute;
-	top: 52vw;
-	left: 14vw;
+	top: 10vw;
+	left: 71vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1412,8 +1646,8 @@ a {
 
 .doggovideo4 {
 	position: absolute;
-	top: 52vw;
-	left: 55vw;
+	top: 34vw;
+	left: 6vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1424,8 +1658,8 @@ a {
 
 .doggovideo5 {
 	position: absolute;
-	top: 81vw;
-	left: 14vw;
+	top: 34vw;
+	left: 38vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1436,8 +1670,8 @@ a {
 
 .doggovideo6 {
 	position: absolute;
-	top: 81vw;
-	left: 55vw;
+	top: 34vw;
+	left: 71vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1448,16 +1682,25 @@ a {
 
 .woofermemes {
 	position: absolute;
-	top: 26vw;
+	top: 25vw;
 	left: 22vw;
 	width: 18vw;
 	height: 20vw;
 	display: block;
-	background:url(woofersmemes.jpg);
 	background-position: center;
 	object-fit: contain;
-	transition: all 500ms ease-in-out;
+	background-repeat: no-repeat;
+				float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+
+.woofermemes:hover {
+margin-top: -1vw;
+}
+
+
 
 .woofervideos {
 	position: absolute;
@@ -1466,113 +1709,190 @@ a {
 	width: 18vw;
 	height: 20vw;
 	display: block;
-	background:url(woofersvideos.jpg);
+	background:url(videosicon.png);
 	background-position: center;
 	object-fit: contain;
-	transition: all 500ms ease-in-out;
+	background-repeat: no-repeat;
+				float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
 
+.woofervideos:hover {
+margin-top: -1vw;
+}
 
 .Meme36 {
 	position: absolute;
-	top: 25vw;
-	left: 20vw;
-	width: 20vw;
-	height: 25vw;
+	top: 9vw;
+	left: 3vw;
+	width: 21vw;
+	height: 17vw;
 	display: block;
-	background:url(36.jpg);
+	background:url(36.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+			float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+
+.Meme36:hover {
+margin-top: -1vw;
+}
+
 
 .Meme37 {
 	position: absolute;
-	top: 25vw;
-	left: 59vw;
-	width: 20vw;
-	height: 25vw;
+	top: 9vw;
+	left: 34vw;
+	width: 11vw;
+	height: 17vw;
 	display: block;
-	background:url(37.jpg);
+	background:url(37.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+			float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+.Meme37:hover {
+margin-top: -1vw;
+}
+
 
 .Meme38 {
 	position: absolute;
-	top: 55vw;
-	left: 20vw;
-	width: 20vw;
-	height: 25vw;
+	top: 10vw;
+	left: 58vw;
+	width: 11vw;
+	height: 18vw;
 	display: block;
-	background:url(38.jpg);
+	background:url(38.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+			float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+.Meme38:hover {
+margin-top: -1vw;
+}
+
 
 .Meme39 {
 	position: absolute;
-	top: 55vw;
-	left: 59vw;
-	width: 20vw;
-	height: 25vw;
+	top: 12.5vw;
+	left: 80vw;
+	width: 13vw;
+	height: 12vw;
 	display: block;
-	background:url(39.jpg);
+	background:url(39.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+			float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+.Meme39:hover {
+margin-top: -1vw;
+}
+
 
 .Meme40 {
 	position: absolute;
-	top: 85vw;
-	left: 20vw;
-	width: 20vw;
-	height: 25vw;
+	top: 30vw;
+	left: 1.5vw;
+	width: 21vw;
+	height: 17vw;
 	display: block;
-	background:url(40.jpg);
+	background:url(40.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+			float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+.Meme40:hover {
+margin-top: -1vw;
 }
 
 .Meme41 {
 	position: absolute;
-	top: 85vw;
-	left: 59vw;
-	width: 20vw;
-	height: 25vw;
+	top: 30.5vw;
+	left: 35vw;
+	width: 11vw;
+	height: 17vw;
 	display: block;
-	background:url(41.jpg);
+	background:url(41.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+			float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+.Meme41:hover {
+margin-top: -1vw;
 }
 
 .Meme42 {
 	position: absolute;
-	top: 115vw;
-	left: 20vw;
-	width: 20vw;
-	height: 25vw;
+top: 31.5vw;
+	left: 58vw;
+	width: 11vw;
+	height: 18vw;
 	display: block;
-	background:url(42.jpg);
+	background:url(42.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+			float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
+.Meme42:hover {
+margin-top: -1vw;
+}
+
 
 .Meme43 {
 	position: absolute;
-	top: 115vw;
-	left: 59vw;
-	width: 20vw;
-	height: 25vw;
+	top: 34vw;
+	left: 81vw;
+	width: 13vw;
+	height: 12vw;
 	display: block;
-	background:url(43.jpg);
+	background:url(43.png);
 	background-position: center;
 	object-fit: contain;
+	background-repeat: no-repeat;
+			float: left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+.Meme43:hover {
+margin-top: -1vw;
 }
 
 .woofervideo1 {
 	position: absolute;
-	top: 23vw;
-	left: 14vw;
+	top: 10vw;
+	left: 6vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1583,8 +1903,8 @@ a {
 
 .woofervideo2 {
 	position: absolute;
-	top: 23vw;
-	left: 55vw;
+	top: 10vw;
+	left: 38vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1595,8 +1915,8 @@ a {
 
 .woofervideo3 {
 	position: absolute;
-	top: 52vw;
-	left: 14vw;
+	top: 10vw;
+	left: 71vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1607,8 +1927,8 @@ a {
 
 .woofervideo4 {
 	position: absolute;
-	top: 52vw;
-	left: 55vw;
+	top: 34vw;
+	left: 6vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1619,8 +1939,8 @@ a {
 
 .woofervideo5 {
 	position: absolute;
-	top: 81vw;
-	left: 14vw;
+	top: 34vw;
+	left: 38vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
@@ -1631,8 +1951,8 @@ a {
 
 .woofervideo6 {
 	position: absolute;
-	top: 81vw;
-	left: 55vw;
+	top: 34vw;
+	left: 71vw;
 	width: 20vw;
 	height: 25vw;
 	display: block;
