@@ -3,6 +3,68 @@ html, body {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
+.Article2{
+	font-family: 'EB Garamond', serif;
+	font-size: 88px;
+	width: 88vw;
+	color: white;
+	margin-top: -13vh;
+	margin-left: 4vw;
+
+}
+
+.Article3{
+	font-family: 'EB Garamond', serif;
+	font-size: 88px;
+	width: 50vw;
+	color: white;
+	margin-top: -12.5vh;
+	margin-left: 31vw;
+
+}
+
+.Article4{
+	font-family: 'EB Garamond', serif;
+	font-size: 69px;
+	width: 50vw;
+	color: white;
+	margin-top: -11.5vh;
+	margin-left: 31vw;
+
+}
+
+.Article5{
+	font-family: 'EB Garamond', serif;
+	font-size: 68px;
+	width: 50vw;
+	color: white;
+	margin-top: -11.5vh;
+	margin-left: 31vw;
+
+}
+
+
+.prevtext {
+	font-family: 'EB Garamond', serif;
+	font-size: 88px;
+
+	color: white;
+	margin-top: -6.5vh;
+	margin-left: 4vw;
+}
+
+
+.header {
+	font-size: 150px;
+	color: white;
+	margin-top: 39vh;
+
+}
+
 
 body{
 	margin:auto;
@@ -11,62 +73,166 @@ body{
 }
 
 
-.metoo{
-	width: 100%;
-margin-top: 2vh;
+.sursju{
+	font-family: 'EB Garamond', serif;
+	font-size: 106px;
+	margin-left: 104px;
+	margin-top: 1vh;
+	margin-bottom: -6px;
+}
+
+.sjures{
+		font-family: 'EB Garamond', serif;
+	font-size: 106px;
+	margin-left: 104px;
+	margin-top: 1vh;
+	margin-bottom: -6px;
+}
+
+.harsh {
+		font-family: 'EB Garamond', serif;
+	font-size: 106px;
+	margin-left: 42px;
+	margin-top: 1vh;
+	margin-bottom: -6px;
+
+}
+
+
+.help{
+			font-family: 'EB Garamond', serif;
+	font-size: 106px;
+	margin-left: 51px;
+	margin-top: 1vh;
+	margin-bottom: -6px;
 }
 
 img {
 width: 100%;
-margin-top: 1vh;
+margin-top: 2vh;
+}
+
+.underreporting {
+	line-height: 2.5vh;
+	margin-bottom: 45px;
+	text-indent: none;
+	
 }
 
 p {
 	line-height: 2.5vh;
+	margin-bottom: 45px;
+	text-indent: 70px;
 }
 
 head {
 font-family: 'EB Garamond', serif;
 }
 
-.Article2{
+h2{
 	font-family: 'EB Garamond', serif;
-	font-size: 20px;
-	width: 88vw;
-	color: white;
+	font-size: 106px;
+	margin-left: 56px;
+	margin-top: 2vh;
+	margin-bottom: -6px;
 }
 
-.upnext {
+
+
+.upnext1 {
 	font-family: 'EB Garamond', serif;
-	font-size: 
+	font-size: 17px;
+	color: white;
+	margin-top: 0vh;
+	margin-left: 31vw;
 }
+
+.upnext2 {
+	font-family: 'EB Garamond', serif;
+	font-size: 17px;
+	color: white;
+	margin-top: 0vh;
+	margin-left: 31vw;
+}
+
 
 .upnextgrey {
-	margin-bottom: -58px;
+	margin-bottom: 65px;
 	margin-left: auto;
 	width: 88vw;
-	height: 11vh;
+	height: 10vh;
 	background-color: rgb(43,41,43);
 }
 
+
+.upnextgrey2 {
+	margin-bottom: 65px;
+	margin-left: auto;
+	width: 60vw;
+	height: 10vh;
+	background-color: rgb(43,41,43);
+}
+
+.prev3 {
+	margin-bottom: -161px;
+	margin-left: -4px;
+	width: 250px;
+	height: 10vh;
+	background-color: rgb(43,41,43);
+	margin-top: -162px;
+}
+
+.prev2 {
+	margin-bottom: -161px;
+	margin-left: -4px;
+	width: 250px;
+	height: 10vh;
+	background-color: rgb(43,41,43);
+	margin-top: -154px;
+}
+
+.prev {
+	margin-bottom: -161px;
+	margin-left: -4px;
+	width: 250px;
+	height: 10vh;
+	background-color: rgb(43,41,43);
+	margin-top: -160px;
+}
+
+
 .pullquote{
-	font-weight:;
-	font-size:;
-	color: rgb();
-	width:;
-	margin-left:;
+	font-weight:bolder;
+	font-size:60px;
+	color: rgb(43,41,43);
+	margin-left:-5%;
+	text-align: center;
 
 }
 
-.header {
-	font-size: 150px;
-	color: white;
+.pullquote2{
+	font-weight:bolder;
+	font-size:60px;
+	color: rgb(43,41,43);
+	margin-left:-3%;
+	text-align: center;
 
 }
+
+.pullquote3{
+	font-weight:bolder;
+	font-size:60px;
+	color: rgb(43,41,43);
+	margin-left:-3%;
+	text-align: center;
+
+}
+
+
 
 .grey {
 	margin-left: -58px;
-	margin-top: -414px;
+	margin-top: -1147px;
 	width: 100vw;
 	height: 100vh;
 	background-color: rgb(43,41,43);
