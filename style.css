@@ -7,6 +7,15 @@
 	background-color: rgba(119,136,153,0.76);
 }
 
+img {
+position: absolute;
+	bottom: 3vh;
+	right: 2vw;
+	width: 38vw;
+	height: 24vw;
+}
+
+
 .dresser {
 position: absolute;
 bottom: 0vh;
@@ -114,7 +123,7 @@ background-color: black;
 
 .tvbox {
 position: absolute;
-left: 16vh;
+left: 19vh;
 bottom: 22vw;
 height: 51vh;
 width: 79vh;
@@ -157,10 +166,402 @@ border-radius: 4%;
 .remote{
 	position: absolute;
 	bottom: 0vh;
-	right: 11vw;
-	width: 20vw;
+	right: 12vw;
+	width: 18vw;
 	height: 35vw;
 	background-color: black;
 	border-radius: 10%
 }
+
+
+
+.powerbutton{
+	position: absolute;
+	bottom: 54vh;
+	right: 24vw;
+	width: 4vw;
+	height: 4vw;
+	background-color: grey;
+	border-radius: 50%
+}
+
+.powercircle{
+	position: absolute;
+	bottom: 424px;
+	right: 358.5px;
+	width: 1.5vw;
+	height: 1.5vw;
+	background-color: grey;
+	border: 5px solid black;
+	border-radius: 50%;
+}
+
+.powerbar{
+	position: absolute;
+	bottom: 56.75vh;
+	right: 367px;
+	width: .5vw;
+	height: 1.5vw;
+	background-color: black;
+	border: 4px solid grey;
+}
+
+
+.secondsbutton{
+	position: absolute;
+	bottom: 57vh;
+	right: 22vw;
+	width: 1vw;
+	height: 1vw;
+	background-color: green;
+	border-radius: 50%
+}
+
+.button1{
+position: absolute;
+	bottom: 42vh;
+	right: 23.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.button2{
+position: absolute;
+	bottom: 42vh;
+	right: 19.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.button3{
+position: absolute;
+	bottom: 42vh;
+	right: 15.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.button4{
+position: absolute;
+	bottom: 34vh;
+	right: 23.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.button5{
+position: absolute;
+	bottom: 34vh;
+	right: 19.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.button6{
+position: absolute;
+	bottom: 34vh;
+	right: 15.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.button7{
+position: absolute;
+	bottom: 26vh;
+	right: 23.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.button8{
+position: absolute;
+	bottom: 26vh;
+	right: 19.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.button9{
+position: absolute;
+	bottom: 26vh;
+	right: 15.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.button0{
+position: absolute;
+	bottom: 18vh;
+	right: 19.5vw;
+	width: 3vw;
+	height: 3vw;
+	background-color: grey;
+	border-radius: 10%
+}
+
+.volbox {
+position: absolute;
+	bottom: 3vh;
+	right: 23.5vw;
+	width: 3vw;
+	height: 6vw;
+	background-color: grey;
+}
+
+
+.chbox {
+position: absolute;
+	bottom: 3vh;
+	right: 15.5vw;
+	width: 3vw;
+	height: 6vw;
+	background-color: grey;
+}
+
+.button1text {
+	position: absolute;
+	bottom: 327px;
+	right: 352px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.button2text {
+	position: absolute;
+	bottom: 327px;
+	right: 295px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.button3text {
+	position: absolute;
+	bottom: 327px;
+	right: 236px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.button4text {
+	position: absolute;
+	bottom: 266px;
+	right: 352px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.button5text {
+	position: absolute;
+	bottom: 266px;
+	right: 295px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.button6text {
+	position: absolute;
+	bottom: 266px;
+	right: 236px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.button7text {
+	position: absolute;
+	bottom: 205px;
+	right: 352px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.button8text {
+	position: absolute;
+	bottom: 205px;
+	right: 295px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.button9text {
+	position: absolute;
+	bottom: 205px;
+	right: 236px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.button0text {
+	position: absolute;
+	bottom: 144px;
+	right: 295px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.vol1{
+	position: absolute;
+	bottom: 78px;
+	right: 353px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.vol2 {
+	position: absolute;
+	bottom: 28px;
+	right: 353px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.voltext{
+	position: absolute;
+	bottom: 57px;
+	right: 345px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 14px;
+	color: black;
+}
+
+.ch1{
+	position: absolute;
+	bottom: 78px;
+	right: 237px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.ch2 {
+	position: absolute;
+	bottom: 28px;
+	right: 237px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: black;
+}
+
+.chtext{
+	position: absolute;
+	bottom: 57px;
+	right: 235px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 14px;
+	color: black;
+}
+
+
+.volbar{
+	position: absolute;
+	top: 30vh;
+	left: 13.5vw;
+	width: 1.5vw;
+	height: 11vw;
+	background-color: black;
+	border:1px solid white;
+}
+
+
+.voltext2{
+	position: absolute;
+	top: 398px;
+	left: 193px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 14px;
+	color: black;
+}
+
+.chbar {
+	position: absolute;
+	top: 13vh;
+	left: 42.5vw;
+	width: 6vw;
+	height: 3vw;
+	background-color: black;
+	border:1px solid white;
+}
+
+.chtext2{
+	position: absolute;
+	top: 109px;
+	left: 624px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 14px;
+	color: white;
+}
+
+
+.chnumber{
+	position: absolute;
+	top: 109px;
+	left: 654px;
+	font-family: Helvetica;
+	font-weight: bold; 
+	font-size: 27px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
