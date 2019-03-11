@@ -225,13 +225,13 @@ border-radius: 4%;
 
 @keyframes window{
 0%{
-	background-color: yellow;
+	background-color: lightblue;
 }
 50%{
-	background-color: darkblue;
+	background-color: midnightblue;
 }
 100%{
-	background-color: yellow;
+	background-color: lightblue;
 }
 }
 
