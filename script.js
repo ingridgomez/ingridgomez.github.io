@@ -10,7 +10,7 @@ $(document).ready(function() {
     $(".chtext2").addClass("hidden");
     $(".chnumber").addClass("hidden");
     $("audio").get(0).play();
-  }, 10000);
+  }, 1000);
 
     $(".powerbutton").click(function() { 
     $(".powerbutton").removeClass("alarm");
@@ -33,6 +33,6 @@ $(document).ready(function() {
     if (!$(".screen").hasClass("alert")){
     	$(".screen").removeClass().addClass("screen").addClass("g"+minutes);
     }
-  },1000)
+  },1000);
 
 });
