@@ -10,7 +10,7 @@ $(document).ready(function() {
     $(".chtext2").addClass("hidden");
     $(".chnumber").addClass("hidden");
     $("audio").get(0).play();
-  }, 1000);
+  }, 10000);
 
     $(".powerbutton").click(function() { 
     $(".powerbutton").removeClass("alarm");
