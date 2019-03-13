@@ -4,19 +4,21 @@ $(document).ready(function() {
     $(".secondsbutton").addClass("flashing"); 
     $(".body").addClass("alarming"); 
     $(".screen").addClass("alert"); 
+    $(".windowbox").addClass("help"); 
     $(".volbar").addClass("hidden");
     $(".voltext2").addClass("hidden");
     $(".chbar").addClass("hidden");
     $(".chtext2").addClass("hidden");
     $(".chnumber").addClass("hidden");
     $("audio").get(0).play();
-  }, 10000);
+  }, 1000);
 
     $(".powerbutton").click(function() { 
     $(".powerbutton").removeClass("alarm");
     $(".secondsbutton").removeClass("flashing"); 
     $(".body").removeClass("alarming"); 
     $(".screen").removeClass("alert"); 
+    $(".windowbox").removeClass("help"); 
     $(".volbar").removeClass("hidden");
     $(".voltext2").removeClass("hidden");
     $(".chbar").removeClass("hidden");
