@@ -24,7 +24,7 @@
   animation-name: sprite;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(4);
+  animation-timing-function: steps(2);
 }
 
 @keyframes sprite {
@@ -65,7 +65,7 @@
   animation-name: sprite;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(6);
+  animation-timing-function: steps(4);
 }
 
 .attacking{
@@ -81,7 +81,7 @@
   animation-name: sprite;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(6);
+  animation-timing-function: steps(4);
 }
 
 .jumping{
@@ -97,7 +97,7 @@
   animation-name: sprite;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(6);
+  animation-timing-function: steps(4);
 }
 
 
