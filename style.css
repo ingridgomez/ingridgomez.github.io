@@ -67,6 +67,10 @@ body {
   pointer-events: none;
 }
 
+.special {
+  background-image: url("background2.png");
+}
+
 .hero {
  position: absolute;
   bottom: 200px;
@@ -121,8 +125,6 @@ body {
   animation-duration: 500ms;
   animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
-  transition-property: right;
-  transition-timing-function: linear;
   pointer-events: none;
 }
 
