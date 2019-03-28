@@ -61,7 +61,7 @@ body {
   margin: auto;
   width: 1024px;
   height: 748px;
-  background-image: url("./img/background.png");
+  background-image: url("background.png");
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -73,7 +73,7 @@ body {
   left: 505px;
   width: 200px;
   height: 200px;
-  background-image: url("./img/idling-sprite.png");
+  background-image: url("idling-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;
   animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
@@ -86,7 +86,7 @@ body {
 }
 
 .hero.walking {
-  background-image: url("./img/walking-sprite.png");
+  background-image: url("walking-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 300ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
@@ -97,14 +97,14 @@ body {
 }
 
 .hero.jumping {
-  background-image: url("./img/jumping-sprite.png");
+  background-image: url("jumping-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .hero.attacking {
-  background-image: url("./img/attacking-sprite.png");
+  background-image: url("attacking-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 600ms;  /* set to same number in initialize() as well or it will look weird */
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
@@ -115,7 +115,7 @@ body {
   width: 170px;
   height: 170px;
   bottom: 490px;
-  background-image: url("./img/monster-sprite.png");
+  background-image: url("monster-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
   animation-duration: 500ms;
