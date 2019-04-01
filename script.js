@@ -12,10 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
   mugen.initialize({ 
   	titleScreenImageURL: "splashscreen.png",
   	attackRadius: 20,
-  	 monsterHitRadius: 100, attackDuration:300,
+  	 monsterHitRadius: 100, attackDuration:400,
   	  jumpHeight: 250, 
-  	  monsterSpeed: 650, 
+  	  monsterSpeed: 550, 
   	  onMonsterSpawn: myCommands, 
-  	  onMonsterWasHit: restoreBackground
+  	  onMonsterWasHit: restoreBackground,
+  	  timeBetweenMonsters: 3000
   	});
 });
