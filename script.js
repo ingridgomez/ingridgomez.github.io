@@ -10,7 +10,7 @@ $(".background").removeClass("special");
 document.addEventListener("DOMContentLoaded", function () {
   var mugen = new MUGEN();
   mugen.initialize({ 
-  	titleScreenImageURL: "splashscreen.png",
+  	titleScreenImageURL: "giphy.gif",
   	attackRadius: 20,
   	 monsterHitRadius: 100, attackDuration:400,
   	  jumpHeight: 250, 
