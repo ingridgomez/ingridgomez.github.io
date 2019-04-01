@@ -64,9 +64,10 @@ MUGEN's operation can be customized with certain settings, passed as an object i
 The following example shows how more than one setting can be passed into the initialization function:
 ```
   var mugen = new MUGEN();
-  mugen.initialize({attackDuration: 600, jumpHeight: 220, monsterSpeed: 550});
+  mugen.initialize({ attackDuration: 600, jumpHeight: 220, monsterSpeed: 550 });
 ```
 The following is a complete list of available settings:
+* `titleScreenImageURL` (string in quotes) url for an image to be used as title screen (optional)
 * `heroSpeed` (number) how fast the hero moves when walking, in pixels per second
 * `jumpHeight` (number) how high the hero jumps, in pixels
 * `attackDuration` (number) duration of the hero's attack animation, in milliseconds **note: this should match the setting in the CSS file**)
@@ -74,9 +75,36 @@ The following is a complete list of available settings:
 * `monsterHitRadius` (number) how far out from the center of the monster div its body extends and can be hit, in pixels
 * `monsterSpeed` (number) how fast the monster moves, in pixels per second
 * `timeBetweenMonsters` (number) length of time between new monster spawns, in milliseconds
+* `monsterMoveToX` (number) how far across the screen the monster will attempt to move, in pixels (default is all the way across)
+* `maxSimultaneousMonsters` (number) maximum number of monsters that will appear at once (default is 10)
 * `pointsPerMonsterKilled` (number) how many points are added to the score for each monster killed
 * `makeResponsive` (boolean) when set to true, MUGEN will attempt to resize the page to fit on smaller screens **note: this feature is experimental and potentially buggy**
 * `autoPlay` (boolean) when set to true, MUGEN will make the hero move, jump, and attack automatically instead of waiting for user input
+
+Optionally, you can also code your own callback functions that will be triggered by certain game events. Anything you can code in JavaScript could be programmed into these callbacks, such as playing a sound, showing or hiding an HTML element of your own making, changing the CSS style/class on HTML elements, etc. 
+
+Callback functions can be passed in like the other settings, as in this heavily simplified example:
+```
+  mugen.initialize({ onMonsterSpawn: function() {console.log("monster spawned!";} });
+```
+More complex callbacks can be created first, then passed in as variables like so:
+```
+  var myCallback = function() {
+   console.log("monster spawned!");
+   audio.play();
+   document.querySelector(".background").classList.add("monster-time");
+   // etc.
+  };
+  mugen.initialize({ onMonsterSpawn: myCallback } });
+```
+Available callback field names and the events that trigger them follow:
+* `onGameStart` (function) start of game
+* `onMonsterSpawn` (function) each time a new monster appears
+* `onMonsterWasHit` (function) each time a monster gets hit by the hero's attack
+* `onHeroWalk` (function) each time the hero starts to walk
+* `onHeroAttack` (function) each the hero starts to attack
+* `onHeroJump` (function) each time the hero starts to jump
+
 ## Formatting animation sprites
 These guidelines will help get the best results while avoiding technical headaches:
 * use png format, with a transparent background
