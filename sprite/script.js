@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   	titleScreenImageURL: "splashscreen.png",
   	attackRadius: 20,
   	 monsterHitRadius: 100, attackDuration:400,
-  	  jumpHeight: 250, 
+  	  jumpHeight: 300, 
   	  monsterSpeed: 550, 
   	  onMonsterSpawn: myCommands, 
   	  onMonsterWasHit: restoreBackground,
